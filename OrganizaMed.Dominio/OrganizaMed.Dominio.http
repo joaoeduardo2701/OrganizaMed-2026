@@ -1,0 +1,6 @@
+@OrganizaMed.Dominio_HostAddress = http://localhost:5252
+
+GET {{OrganizaMed.Dominio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
