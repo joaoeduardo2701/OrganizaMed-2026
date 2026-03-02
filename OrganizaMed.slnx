@@ -7,8 +7,12 @@
   <Folder Name="/2. Núcleo da Aplicação/Camada de Domínio/">
     <Project Path="OragnizaMed.Dominio/OrganizaMed.Dominio.csproj" />
   </Folder>
-  <Folder Name="/3. Infraestrutura/" />
+  <Folder Name="/3. Infraestrutura/">
+    <Project Path="OrganizaMed.Infraestrutura.Orm/OrganizaMed.Infraestrutura.Orm.csproj" Id="9abec6e5-885a-424e-b144-38ab14224236" />
+  </Folder>
   <Folder Name="/4. Testes/" />
   <Folder Name="/4. Testes/Testes de Integração/" />
-  <Folder Name="/4. Testes/Testes de Unidade/" />
+  <Folder Name="/4. Testes/Testes de Unidade/">
+    <Project Path="OrganizaMed.Testes.Unidade/OrganizaMed.Testes.Unidade.csproj" />
+  </Folder>
 </Solution>
