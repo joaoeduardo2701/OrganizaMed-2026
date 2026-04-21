@@ -17,11 +17,13 @@ Os médicos podem realizar atividades durante o dia inteiro, em todos os dias do
 médico termina uma atividade, é necessário um tempo de descanso para recuperação. Independentemente da duração
 da atividade, o período de recuperação será de 4 horas após realizar uma cirurgia e 10 minutos após realizar uma
 consulta médica.
-Escopo da Solução
+
+**Escopo da Solução**
 * O aplicativo deve permitir agendar atividades em qualquer momento (futuro ou passado).
 * Quando uma atividade é criada, deve ser possível indicar os horários de início e término, o tipo de atividade e o
 médico (ou lista de médicos) que está realizando essa atividade.
-Diversão Opcional? Não é obrigatório, mas você pode ampliar o escopo da solução com alguns dos pontos abaixo:
+
+**Diversão Opcional? Não é obrigatório, mas você pode ampliar o escopo da solução com alguns dos pontos abaixo:**
 * É possível modificar os horários de uma atividade existente.
 * É possível excluir uma atividade existente.
 * O aplicativo indica quando a atividade de um médico entra em conflito com outras atividades do mesmo médico,
@@ -32,7 +34,8 @@ possa ser resolvido.
 da aplicação.
 * Você pode definir alguns dados iniciais, como informações sobre os médicos, e até algumas atividades iniciais já
 atribuídas.
-Lembretes
+
+**Lembretes**
 * Não esqueçam em implementarem um código limpo com camadas, classes e métodos coesos.
 * Criem testes unitários e testes de integração.
 * Utilize quaisquer frameworks e bibliotecas que acharem convenientes.
@@ -42,7 +45,7 @@ Prazo de Entrega
    O candidato terá um prazo de 02/12/2024 para completar o teste e enviar o código fonte e documentação
 associada para avaliação.
 
-Submissão
+**Submissão**
 * Crie um repositório privado no Github
 * Por favor, adicione a conta @academiadoprogramador como 'developer'.
 * Por favor, note que o aplicativo será executado em outras máquinas, então não mantenha referências locais.
