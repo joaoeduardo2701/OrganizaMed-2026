@@ -8,10 +8,11 @@ namespace OrganizaMed.Dominio.ModuloMedico
         {
             RuleFor(m => m.Nome)
                 .NotEmpty().WithMessage("O nome do médico é obrigatório")
+                .Matches(@"^[\p{L}\s]+$").WithMessage("O nome do médico contém caracteres inválidos")
                 .DependentRules(() =>
                 {
                     RuleFor(m => m.Nome)
-                        .Length(2, 100).WithMessage("O nome do médico deve conter entre 2 e 100 caracteres");
+                        .Length(3, 100).WithMessage("O nome do médico deve conter entre 3 e 100 caracteres");
                 });
 
             RuleFor(m => m.Crm)
